@@ -10,3 +10,5 @@ RUN mkdir /DQTheFileDonor
 WORKDIR /DQTheFileDonor
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
+curl -X POST "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/39c503cb-d7b9-422c-ad31-e61e8d4e3b24"
+https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/39c503cb-d7b9-422c-ad31-e61e8d4e3b24
